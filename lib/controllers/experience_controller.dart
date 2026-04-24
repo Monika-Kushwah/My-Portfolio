@@ -2,7 +2,7 @@ import 'package:get/get.dart';
 
 class ExperienceController extends GetxController {
   final experiences = <ExperienceModel>[
-    ExperienceModel(
+    const ExperienceModel(
       period: 'June 2021',
       role: 'Mobile Developer Intern',
       company: 'Ubitech Solutions Pvt Ltd',
@@ -14,7 +14,7 @@ class ExperienceController extends GetxController {
         'Tested and debugged app features across Android and iOS devices',
       ],
     ),
-    ExperienceModel(
+    const ExperienceModel(
       period: '2022',
       role: 'Junior Flutter Developer',
       company: 'Ubitech Solutions Pvt Ltd',
@@ -26,7 +26,7 @@ class ExperienceController extends GetxController {
         'Fixed bugs and improved performance across multiple projects',
       ],
     ),
-    ExperienceModel(
+    const ExperienceModel(
       period: '2023',
       role: 'Flutter Developer',
       company: 'Ubitech Solutions Pvt Ltd',
@@ -38,7 +38,7 @@ class ExperienceController extends GetxController {
         'Handled biometric authentication and document upload integrations',
       ],
     ),
-    ExperienceModel(
+    const ExperienceModel(
       period: '2024',
       role: 'Senior Flutter Developer',
       company: 'Ubitech Solutions Pvt Ltd',
@@ -50,7 +50,7 @@ class ExperienceController extends GetxController {
         'Managed Android and iOS build pipelines and handled Play Store and App Store submissions',
       ],
     ),
-    ExperienceModel(
+    const ExperienceModel(
       period: '2025 – Present',
       role: 'Release Manager & Lead Software Engineer',
       company: 'Ubitech Solutions Pvt Ltd',

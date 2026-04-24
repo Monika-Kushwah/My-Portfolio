@@ -41,7 +41,7 @@ class _CompanyBadge extends StatelessWidget {
         borderRadius: BorderRadius.circular(8),
         border: Border.all(color: AppColors.border),
       ),
-      child: Row(mainAxisSize: MainAxisSize.min, children: const [
+      child: const Row(mainAxisSize: MainAxisSize.min, children: [
         Icon(Icons.business_outlined, size: 14, color: AppColors.accent2),
         SizedBox(width: 8),
         Text(

@@ -65,7 +65,7 @@ class _HeroSectionState extends State<HeroSection> with SingleTickerProviderStat
                 totalRepeatCount: 1,
               ),
               const SizedBox(height: 8),
-              Row(children: const [
+              const Row(children: [
                 Icon(Icons.location_on_outlined, size: 13, color: AppColors.textMuted),
                 SizedBox(width: 4),
                 Text('Gwalior, Madhya Pradesh, India',

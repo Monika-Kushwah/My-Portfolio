@@ -10,10 +10,10 @@ class ContactSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SectionWrapper(
+    return const SectionWrapper(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: const [
+        children: [
           SectionHeader(label: 'Contact'),
           SizedBox(height: 20),
           _ContactLeft(),

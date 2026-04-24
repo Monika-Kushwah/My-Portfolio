@@ -6,10 +6,10 @@ class ProjectsController extends GetxController {
 
   // 📦 Projects List
   final projects = <ProjectModel>[
-    ProjectModel(
+    const ProjectModel(
       icon: Icons.check_circle_outline,
       iconColor: Colors.green, // 🎨 color added
-      bannerColors: const [Color(0xFF0D1A2B), Color(0xFF0A3050)],
+      bannerColors: [Color(0xFF0D1A2B), Color(0xFF0A3050)],
       title: 'UbiAttendance',
       desc:
       'Enterprise attendance app with GPS location tracking, selfie verification, face recognition, and a complete leave management system.',
@@ -20,10 +20,10 @@ class ProjectsController extends GetxController {
       'https://apps.apple.com/in/app/track-employee-attendance/id1375252261',
     ),
 
-    ProjectModel(
+    const ProjectModel(
       icon: Icons.badge_outlined,
       iconColor: Colors.purple, // 🎨 color added
-      bannerColors: const [Color(0xFF1A0D2B), Color(0xFF3A1060)],
+      bannerColors: [Color(0xFF1A0D2B), Color(0xFF3A1060)],
       title: 'UbiHRM – Payroll App',
       desc:
       'Full HR management app with GPS attendance, selfie verification, face recognition, leave approval workflows, and payroll management.',

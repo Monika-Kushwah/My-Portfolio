@@ -63,7 +63,7 @@ class _EduCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final Color iconColor = Colors.blueAccent;
+    const Color iconColor = Colors.blueAccent;
 
     return Container(
       decoration: BoxDecoration(
@@ -102,7 +102,7 @@ class _EduCard extends StatelessWidget {
                     )
                   ],
                 ),
-                child: Icon(
+                child: const Icon(
                   Icons.school,
                   color: iconColor,
                   size: 28,
@@ -150,7 +150,7 @@ class _EduCard extends StatelessWidget {
                     color: iconColor.withOpacity(0.12),
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  child: Text(
+                  child: const Text(
                     'B.Tech',
                     style: TextStyle(
                       fontSize: 10,

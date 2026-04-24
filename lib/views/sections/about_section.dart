@@ -54,25 +54,25 @@ class _Avatar extends StatelessWidget {
 class _AboutText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        const Text(
+        Text(
           "I'm a Flutter Developer and Release Manager at Ubitech Solutions with 4+ years of hands-on experience building enterprise-grade cross-platform mobile applications.",
           style: TextStyle(fontSize: 14, color: AppColors.textMuted, height: 1.85),
         ),
-        const SizedBox(height: 10),
-        const Text(
+        SizedBox(height: 10),
+        Text(
           "I specialise in Flutter architecture, GetX state management, REST API integration, and Firebase. I handle end-to-end delivery — from development to Play Store and App Store releases.",
           style: TextStyle(fontSize: 14, color: AppColors.textMuted, height: 1.85),
         ),
-        const SizedBox(height: 10),
-        const Text(
+        SizedBox(height: 10),
+        Text(
           "My apps feature biometric authentication, GPS tracking, face recognition, and document uploads — deployed for real enterprise users at scale.",
           style: TextStyle(fontSize: 14, color: AppColors.textMuted, height: 1.85),
         ),
-        const SizedBox(height: 20),
-        Row(children: const [
+        SizedBox(height: 20),
+        Row(children: [
           _StatCard(
             number: 4,
             suffix: '+',
@@ -82,7 +82,7 @@ class _AboutText extends StatelessWidget {
           ),
           SizedBox(width: 12),
           _StatCard(
-            number: 6,
+            number: 2,
             suffix: '+',
             label: 'Published Apps',
             icon: Icons.apps,
