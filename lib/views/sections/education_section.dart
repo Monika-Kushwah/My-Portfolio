@@ -110,7 +110,6 @@ class _EduCard extends StatelessWidget {
               ),
             ),
           ),
-
           // 🔽 Content
           Padding(
             padding: const EdgeInsets.all(16),
